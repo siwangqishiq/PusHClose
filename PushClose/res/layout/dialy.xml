@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/date_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCE"
+        android:gravity="center"
+        android:text="Tue 18"
+        android:textColor="#FB675D"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+	
+    <!--  <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner" />-->
+    <com.xinlan.pushclose.CanCloseListView
+        android:id="@+id/date_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" /> 
+
+</LinearLayout>
